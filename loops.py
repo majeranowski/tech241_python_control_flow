@@ -38,8 +38,39 @@ for items in dict_data.values():
 
 # loops and if statements
 print("----------")
-for num in list_data:
-    if num % 2 == 0:
-        print(num, "even")
+# for num in list_data:
+#     if num % 2 == 0:
+#         print(num, "even")
+#     else:
+#         print(num, "odd")
+
+# while loops
+
+x = 0
+
+while x < 10:
+    print(f"it's working -> {x}")
+    x += 1
+
+while x < 10:
+    print(f"it's working -> {x}")
+    if x == 4:
+        break
+    x += 1
+
+# verifying user input
+
+user_prompt = True
+
+while user_prompt:
+    age = input("What is your age? ")
+    if age.isdigit() and int(age) > 0 and int(age) <= 117:
+        user_prompt = False
     else:
-        print(num, "odd")
+        print("You have to enter a digit between 1 - 117")
+
+print(f"Your age is {age}")
+
+
+
+
