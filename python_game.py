@@ -15,7 +15,10 @@ define a function with actual game:
 
 - wrap everything around in the loop so the user can decide when to stop the game.
 
+- add a basic requirements to finish the game and solve the case
+
 - add hidden easter egg to make it more fun
+
 """
 
 
