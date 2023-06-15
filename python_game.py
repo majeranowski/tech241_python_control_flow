@@ -120,10 +120,10 @@ def game():
         else:
             print("Invalid choice. Please enter a number from 1 to 8.")
 
-        play = input("Do you want to keep playing? (yes/no): ")
-        if play.lower() == "no":
+        play_again = input("Do you want to keep playing? (yes/no): ")
+        if play_again.lower() == "no":
             print("Thank you for playing! Goodbye!")
-            break
+            play = False
 
 
     print("\nGame summary")
